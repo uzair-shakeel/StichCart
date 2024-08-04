@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+.step-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: flex-start;
+  padding: 8% 7%;
+  justify-content: start;
+  text-align: start;
+  font-family: "Roboto Flex", sans-serif !important;
+  width: 100%;
+
+  .img-container.order {
+    order: 2;
+  }
+
+  .step-texts.order {
+    order: 1;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .step-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 0 5%;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    flex: 1;
+
+    .step-number {
+      background-color: var(--primary-purple);
+      padding: 18px;
+      font-size: 30px;
+      font-weight: 600;
+      border-radius: 40px;
+      @media (max-width: 1200px) {
+        font-size: 26px;
+      }
+    }
+
+    h4 {
+      font-size: 36px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      margin: 0;
+      font-family: "Roboto Flex", sans-serif !important;
+      @media (max-width: 1200px) {
+        font-size: 26px;
+      }
+    }
+    p {
+      font-size: 20px;
+      @media (max-width: 1200px) {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.step-container.order {
+  justify-content: space-between !important;
+}
+
+/* Media query for medium devices (tablets) */
+@media (max-width: 1069px) {
+  .step-container {
+    padding: 8% 2%;
+  }
+}
+
+@media (max-width: 768px) {
+  .step-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+    .img-container {
+      height: 609px;
+    }
+
+    .img-container.order {
+      order: 1;
+    }
+
+    .step-texts.order {
+      order: 2;
+    }
+  }
+  .step-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
+    padding: 0 !important;
+
+    h4 {
+      font-size: 26px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 615px) {
+  .step-container {
+    padding: 60px 6%;
+    .img-container {
+      height: auto;
+      margin: 7% 0;
+    }
+    p {
+      letter-spacing: 1px;
+    }
+  }
+}
