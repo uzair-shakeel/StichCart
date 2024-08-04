@@ -1,0 +1,289 @@
+.footer {
+  background: var(--primary-dark);
+  color: var(--primary-white);
+  padding: 60px 75px;
+  display: grid;
+  grid-template-columns: 1.4fr 0.9fr 1fr 2fr; // Adjusted to give more width to the .newsletter section
+  gap: 2rem;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3em 2rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 2em 1rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .content {
+      order: 1;
+    }
+
+    .newsletter {
+      order: 2;
+    }
+
+    .information {
+      order: 3;
+    }
+
+    .contact-us {
+      order: 4;
+    }
+    .follow-us {
+      order: 5;
+    }
+  }
+
+  .content {
+    padding: 10px;
+    img {
+      width: 115px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 16px;
+      color: var(--secondary-dark);
+      font-weight: 600;
+      max-width: 242px;
+      margin-bottom: 14px;
+      line-height: 24px;
+
+      @media (max-width: 768px) {
+        font-size: 14px;
+        margin: 0 auto;
+      }
+    }
+
+    .follow-us {
+      h1 {
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+
+      .social-links {
+        display: flex;
+        gap: 20px;
+
+        .link {
+          background: var(--secondary-dark);
+          border-radius: 50%;
+          width: 32px;
+          height: 32px;
+          color: var(--pure-black);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          svg {
+            width: 16px;
+            height: 16px;
+          }
+        }
+        @media (max-width: 1024px) {
+          margin-bottom: 2rem;
+        }
+        @media (max-width: 768px) {
+          justify-content: center;
+          margin-top: 1rem;
+        }
+      }
+      @media (max-width: 768px) {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .information {
+    padding: 10px;
+    h1 {
+      font-size: 20px;
+      letter-spacing: 1.5px;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        padding: 5px 0;
+
+        a {
+          text-decoration: none;
+          letter-spacing: 1px;
+          color: var(--secondary-dark);
+          font-weight: 600;
+
+          &:hover {
+            color: var(--primary-white);
+          }
+
+          @media (max-width: 768px) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-us {
+    padding: 10px;
+    h1 {
+      font-size: 20px;
+      letter-spacing: 1.5px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 1rem;
+
+        svg {
+          width: 40px;
+          height: 40px;
+          fill: var(--primary-white);
+        }
+
+        a {
+          color: var(--primary-white);
+          text-decoration: none;
+
+          @media (max-width: 768px) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .newsletter {
+    padding: 10px;
+    h1 {
+      font-size: 20px;
+      letter-spacing: 1.5px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+
+    .newsletter-input {
+      display: flex;
+      background: var(--footer-dark);
+      height: 45px;
+
+      @media (max-width: 768px) {
+        // flex-direction: column;
+      }
+
+      input {
+        flex: 1;
+        background: transparent;
+        outline: none;
+        border: none;
+        box-shadow: none;
+        color: var(--primary-white);
+        padding: 0 1rem;
+
+        @media (max-width: 768px) {
+          width: 100%;
+          margin-bottom: 0.5rem;
+        }
+
+        &::placeholder {
+          color: var(--secondary-dark);
+        }
+      }
+
+      button {
+        background: var(--footer-dark);
+        border: none;
+        color: var(--primary-white);
+        padding: 0 1rem;
+        cursor: pointer;
+
+        @media (max-width: 768px) {
+          //   width: 100%;
+        }
+      }
+    }
+
+    .consent {
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      margin-top: 2rem;
+
+      input {
+        margin-right: 0.5rem;
+        height: 35px;
+        width: 25px;
+      }
+
+      /* Hide the actual checkbox */
+      input[type="checkbox"] {
+        opacity: 0;
+        position: absolute;
+      }
+
+      /* Custom checkbox style */
+      .custom-checkbox-label {
+        display: inline-block;
+        width: 15px; /* Adjust size as needed */
+        height: 17px; /* Adjust size as needed */
+        background-color: var(--primary-white);
+        border: 1px solid var(--primary-white);
+        cursor: pointer;
+      }
+
+      /* Checked state */
+      .custom-checkbox-label::after {
+        content: "";
+        display: block;
+        width: 6px; /* Size of the checkmark */
+        height: 9px; /* Size of the checkmark */
+        margin: 3px; /* Adjust position as needed */
+        background-color: var(--primary-color); /* Custom fill color */
+        visibility: hidden;
+      }
+
+      /* Show the checkmark when the checkbox is checked */
+      input[type="checkbox"]:checked + .custom-checkbox-label::after {
+        visibility: visible;
+      }
+
+      p {
+        color: var(--secondary-dark);
+        font-size: 14px;
+        margin-left: 8px;
+      }
+    }
+  }
+}

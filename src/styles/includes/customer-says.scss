@@ -1,0 +1,43 @@
+.slider-container {
+  position: relative;
+
+  .carousalContainer {
+    padding: 0 5px;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 260px; /* Limit image height */
+    object-fit: cover; /* Cover container while maintaining aspect ratio */
+  }
+}
+
+/* Carousal.css */
+.slick-prev,
+.slick-next {
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-prev {
+  left: 8px; /* Adjust the left position as needed */
+}
+
+.slick-next {
+  right: 8px; /* Adjust the right position as needed */
+}
+
+.slick-prev::before,
+.slick-next::before {
+  content: "";
+}

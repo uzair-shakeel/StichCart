@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "author": "Sam",
+    "reviewSubmittedDate": "2023-02-27T05:36:03.000+0000",
+    "reviewText": "Thank you for offering these beautifully unique tops. They are flattering and gorgeous!",
+    "reviewStatus": "APPROVED",
+    "helpfulCount": 0,
+    "notHelpfulCount": 0,
+    "mediaType": "video",
+    "mediaUrl": "customer_testimonials_1.mp4",
+    "coverPhoto" : "customer_testimonials_1.png",
+    "reviewFeedback": [],
+    "ratingDetail": {
+      "id": 51,
+      "rating": 4.0,
+      "ratingSubmittedDate": "2023-02-27T05:36:02.000+0000"
+    }
+  },
+  {
+    "id": 2,
+    "author": "Sam",
+    "reviewSubmittedDate": "2023-02-27T05:36:03.000+0000",
+    "reviewText": "Thank you for offering these beautifully unique tops. They are flattering and gorgeous!",
+    "reviewStatus": "APPROVED",
+    "helpfulCount": 0,
+    "notHelpfulCount": 0,
+    "mediaType": "video",
+    "mediaUrl": "customer_testimonials_2.mp4",
+    "coverPhoto" : "customer_testimonials_2.png",
+    "reviewFeedback": [],
+    "ratingDetail": {
+      "id": 51,
+      "rating": 4.0,
+      "ratingSubmittedDate": "2023-02-27T05:36:02.000+0000"
+    }
+  }
+]

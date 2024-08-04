@@ -1,0 +1,191 @@
+header{
+    background: $color-white;
+    margin: 0 auto;
+    padding: 12px 2%;
+    border-bottom: 1px solid #B1B4BB;
+
+    &.mobileview
+        {
+            display: none;
+        }
+
+        @media (max-width: 576px) 
+        {
+    
+           
+                display: none;
+                &.mobileview
+                {
+                    display: block;
+                    background: none;
+                    border: none;
+                   
+                }
+            
+    
+        }
+    
+}
+.login
+{
+    
+            background: $color-white;
+        padding:30px 20px 10px;
+        min-height: 770px;
+
+        span,
+        label,
+        p
+        {
+            display: block;
+            font-size: $font-size;
+            color: $main-color-darkpurple;
+            &.notreg-text
+            {
+                color:$color-black;
+                a
+                {
+                    color:$color-black;
+                    font-weight: $font-weight-6;
+                }
+            }
+        }
+        h3
+        {
+            margin: 2rem 0 33px;
+            font-size: $font-size+10;
+            font-weight: $font-weight-5;
+        }
+        img
+        {
+            margin: 0 0 17px;
+        }
+        label
+        {
+        font-weight: $font-weight-6;
+        margin: 0 0 10px;
+        }
+        span
+        {
+        font-weight: $font-weight-5;
+        margin: 0 0 10px;
+        }
+        .fielddiv
+        {
+
+
+            width: 350px;
+            margin: 0 auto;
+            input
+            {
+            margin: 25px auto 40px;
+            width: 350px;
+            &.otp
+            {
+                width: 45px;
+                display: inline-block;
+                margin:25px 10px 20px 0;
+                text-align: center;
+            }
+            }
+        
+            label
+            {
+                position: absolute;
+                background: $color-white;
+                color: $main-color-darkpurple;
+                font-size: ($font-size)-2;
+                top: -8px;
+                left: 7%;
+                display: none;
+            }
+        }
+
+        .resend-text
+        {
+            color: $main-color-darkpurple;
+            a
+            {
+                font-weight: $font-weight-7;
+                text-decoration: none;
+                color: $main-color-pink;
+            }
+        }
+
+
+        .btn
+        {
+            margin: 25px auto 30px;
+            width: 350px;
+            display: block;
+            &.btn-white
+            {
+                span
+                {
+                    font-weight: $font-weight-7;
+                    display: inline-block;
+                    color: $color-black;
+                }
+            }
+        }
+        .socailbtn
+        {
+            margin: 40px 0 0;
+            .signupdiv
+            {
+                width: 300px;
+                border-top: $border-width-1 solid $main-color-grey-tint2;
+                position: relative;
+                text-align: center;
+                margin: 0 auto 40px;
+                .signuptxt
+                {
+                    position: absolute;
+                    
+                    text-align: center;
+                    color: $main-color-grey-tint2;
+                top: -11px;
+                left: 35%;
+                background: $color-white;
+                }
+            }
+            display: block;
+            img
+            {
+                vertical-align: middle;
+                padding-right: 10px;
+                margin: 0;
+            }
+        }
+        .toptext
+        {
+            p
+            {
+                float: left;
+                &:last-of-type
+                {
+                    float: right;
+                }
+                a
+                {
+                    color: $main-color-darkpurple;
+                    &:hover
+                    {
+                        color: $main-color-pink;
+                       
+                    }
+                }
+            }
+            clear: both;
+
+        }
+        .notification1
+        {
+            left: 0;
+            width: 60% !important;
+            text-align: center;
+            right: 0;
+            top: 100px;
+        }
+        
+}

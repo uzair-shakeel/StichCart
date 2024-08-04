@@ -1,0 +1,44 @@
+[
+    {
+        "offerId": 1000,
+        "startDate": "2022-01-08T07:16:51.000+0000",
+        "endDate": null,
+        "marketingMessage": null,
+        "description": null,
+        "name": "Tamil New Year Offer",
+        "automatic": false,
+        "offerType": {
+            "friendlyName": "Order",
+            "type": "ORDER"
+        },
+        "discountType": {
+            "friendlyName": "Percent Off",
+            "type": "PERCENT_OFF"
+        },
+        "archived": "N",
+        "imageUrl": "https://socialtribes.in/stitchcart/wp-content/uploads/2024/05/Group-73.png",
+        "offerCode": "TAMILNEWYEAR2024",
+        "value": 10.00000
+    },
+    {
+        "offerId": 1051,
+        "startDate": "2022-10-05T18:43:01.000+0000",
+        "endDate": null,
+        "marketingMessage": null,
+        "description": null,
+        "name": "Diwali Offer",
+        "automatic": false,
+        "offerType": {
+            "friendlyName": "Order",
+            "type": "ORDER"
+        },
+        "discountType": {
+            "friendlyName": "Percent Off",
+            "type": "PERCENT_OFF"
+        },
+        "archived": "N",
+        "imageUrl": "https://i.postimg.cc/Wd22XB9N/diwali-offer.png",
+        "offerCode": null,
+        "value": 10.00000
+    }
+]

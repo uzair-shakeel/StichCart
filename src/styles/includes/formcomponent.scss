@@ -1,0 +1,186 @@
+
+ .fielddiv
+ {
+    position: relative;
+    width: 328px;
+    @media (max-width: 576px) 
+    {
+        width: 100%;
+    }
+    input[type='text'],
+    input[type='number'],
+    input[type='password'],
+    input[type='date']
+   
+    {
+        width: 100%;
+        border: $border-width-105 solid $main-color-darkpurple;
+        padding: .2rem 1rem;
+        border-radius: ($border-radius)-8;
+        height: 40px;
+        background:$main-color-grey-tint4;
+        color: $main-color-darkpurple;
+        margin: 0 0 20px;
+        outline: none;
+        @media (max-width: 576px) 
+        {
+            background:$color-greyF1ECEE;
+        }
+        &:focus,
+        &:focus-visible,
+        &:focus-within,
+        &:visited,
+        &:active
+        {
+            border: $border-width-105 solid $main-color-darkpurple;
+            background: $color-white;
+        }
+        &.filled
+        {
+            background:$color-white;
+           + label
+            {
+                display: block;
+            }
+        }
+        &.otp
+        {
+            width: 45px;
+            display: inline-block;
+            margin:0px 20px 20px 0;
+            text-align: center;
+        }
+    
+    }
+    label
+    {
+        position: absolute;
+        background: $color-white;
+        color: $main-color-darkpurple;
+        font-size: ($font-size)-2;
+        top: -8px;
+        left: 7%;
+        display: none;
+    }
+    select
+    {
+        width: 100%;
+        border: $border-width-105 solid $main-color-darkpurple;
+        padding: .2rem 1rem;
+        border-radius: ($border-radius)-8;
+        height: 40px;
+        background:$main-color-grey-tint4;
+        color: $main-color-darkpurple;
+        margin: 0 0 20px;
+        outline: none;
+        @media (max-width: 576px) 
+        {
+            background:$color-greyF1ECEE;
+        }
+    }
+ 
+
+}
+
+input[type='date']
+{
+ 
+     
+     &::-webkit-calendar-picker-indicator {
+        color: rgba(0, 0, 0, 0);
+        opacity: 1;
+        display: block;
+        background: url(../images/date.svg) no-repeat;
+        width: 20px;
+        height: 20px;
+        border-width: thin;
+    }
+}
+.checkbox-contain 
+{
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: $font-size+2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    &:hover
+    {
+        input ~ .checkmark 
+        {
+            background-color: #F0EAEC;
+        }
+    }
+    input[type='checkbox']
+    {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+        &:checked
+        {
+            ~ .checkmark 
+            {
+                background-color: #F0EAEC;
+                &::after
+                {
+                    display: block;
+                }
+            }
+        }
+    }
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 22px;
+        width: 22px;
+        background-color: #F0EAEC;
+        border:2px solid #6A2A41;
+        &::after
+        {
+            content: "";
+            position: absolute;
+            display: none;
+            left: 7px;
+            top: 3px;
+            width: 5px;
+            height: 12px;
+            border: solid #6A2A41;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+      }
+
+  }
+textarea
+{
+    width: 100%;
+    border-radius: ($border-radius)-5;
+    padding: 10px;
+    border: $border-width-1 solid $main-color-darkpurple ;
+   outline: none;
+}
+
+.addattchement
+{
+    border: $border-width-105 dashed $main-color-darkpurple;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border-radius: ($border-radius)-5;
+    img,
+    svg
+    {
+        text-align: center;
+    }
+
+}
+

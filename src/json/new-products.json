@@ -1,0 +1,286 @@
+[
+  {
+    "id": 1,
+    "name": "Product1",
+    "description": null,
+    "longDescription": "",
+    "url": "/src/assets/works.png",
+    "retailPrice": {
+      "amount": 750.0,
+      "currency": "USD"
+    },
+    "salePrice": null,
+    "primaryMedia": {
+      "allowOverrideUrl": true,
+      "id": 1,
+      "title": null,
+      "url": "/enclothe-api/cmsstatic/category/163/uniform-product1.png",
+      "altText": null,
+      "tags": null,
+      "archived": null
+    },
+    "dynamicSkuPrices": null,
+    "active": true,
+    "productOptions": null,
+    "priority": null,
+    "bundleItemsRetailPrice": null,
+    "bundleItemsSalePrice": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "manufacturer": null,
+    "model": null,
+    "promoMessage": null,
+    "defaultSku": {
+      "id": 13951,
+      "activeStartDate": "2023-05-20T10:59:47.000+0000",
+      "activeEndDate": null,
+      "name": "Product1",
+      "active": true,
+      "available": true,
+      "inventoryType": null,
+      "description": null,
+      "retailPrice": {
+        "amount": 750.0,
+        "currency": "USD"
+      },
+      "salePrice": null,
+      "weight": {
+        "weight": null,
+        "unitOfMeasure": "KILOGRAMS"
+      },
+      "dimension": {
+        "width": null,
+        "height": null,
+        "depth": null,
+        "girth": null,
+        "container": null,
+        "size": null,
+        "dimensionUnitOfMeasure": "CENTIMETERS"
+      },
+      "archived": null,
+      "productOptionValues": []
+    },
+    "additionalSkus": null,
+    "defaultCategoryId": null,
+    "upsaleProducts": null,
+    "crossSaleProducts": null,
+    "productAttributes": null,
+    "media": null,
+    "skuBundleItems": null,
+    "promotionMessages": null,
+    "archived": null
+  },
+  {
+    "id": 2,
+    "name": "Product2",
+    "description": null,
+    "longDescription": "",
+    "url": "/src/assets/works1.png",
+    "retailPrice": {
+      "amount": 750.0,
+      "currency": "USD"
+    },
+    "salePrice": null,
+    "primaryMedia": {
+      "allowOverrideUrl": true,
+      "id": 1,
+      "title": null,
+      "url": "/enclothe-api/cmsstatic/category/163/uniform-product2.png",
+      "altText": null,
+      "tags": null,
+      "archived": null
+    },
+    "dynamicSkuPrices": null,
+    "active": true,
+    "productOptions": null,
+    "priority": null,
+    "bundleItemsRetailPrice": null,
+    "bundleItemsSalePrice": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "manufacturer": null,
+    "model": null,
+    "promoMessage": null,
+    "defaultSku": {
+      "id": 13951,
+      "activeStartDate": "2023-05-20T10:59:47.000+0000",
+      "activeEndDate": null,
+      "name": "Product1",
+      "active": true,
+      "available": true,
+      "inventoryType": null,
+      "description": null,
+      "retailPrice": {
+        "amount": 750.0,
+        "currency": "USD"
+      },
+      "salePrice": null,
+      "weight": {
+        "weight": null,
+        "unitOfMeasure": "KILOGRAMS"
+      },
+      "dimension": {
+        "width": null,
+        "height": null,
+        "depth": null,
+        "girth": null,
+        "container": null,
+        "size": null,
+        "dimensionUnitOfMeasure": "CENTIMETERS"
+      },
+      "archived": null,
+      "productOptionValues": []
+    },
+    "additionalSkus": null,
+    "defaultCategoryId": null,
+    "upsaleProducts": null,
+    "crossSaleProducts": null,
+    "productAttributes": null,
+    "media": null,
+    "skuBundleItems": null,
+    "promotionMessages": null,
+    "archived": null
+  },
+  {
+    "id": 3,
+    "name": "Product3",
+    "description": null,
+    "longDescription": "",
+    "url": "/src/assets/works2.png",
+    "retailPrice": {
+      "amount": 750.0,
+      "currency": "USD"
+    },
+    "salePrice": null,
+    "primaryMedia": {
+      "allowOverrideUrl": true,
+      "id": 1,
+      "title": null,
+      "url": "/enclothe-api/cmsstatic/category/163/uniform-product3.png",
+      "altText": null,
+      "tags": null,
+      "archived": null
+    },
+    "dynamicSkuPrices": null,
+    "active": true,
+    "productOptions": null,
+    "priority": null,
+    "bundleItemsRetailPrice": null,
+    "bundleItemsSalePrice": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "manufacturer": null,
+    "model": null,
+    "promoMessage": null,
+    "defaultSku": {
+      "id": 13951,
+      "activeStartDate": "2023-05-20T10:59:47.000+0000",
+      "activeEndDate": null,
+      "name": "Product1",
+      "active": true,
+      "available": true,
+      "inventoryType": null,
+      "description": null,
+      "retailPrice": {
+        "amount": 750.0,
+        "currency": "USD"
+      },
+      "salePrice": null,
+      "weight": {
+        "weight": null,
+        "unitOfMeasure": "KILOGRAMS"
+      },
+      "dimension": {
+        "width": null,
+        "height": null,
+        "depth": null,
+        "girth": null,
+        "container": null,
+        "size": null,
+        "dimensionUnitOfMeasure": "CENTIMETERS"
+      },
+      "archived": null,
+      "productOptionValues": []
+    },
+    "additionalSkus": null,
+    "defaultCategoryId": null,
+    "upsaleProducts": null,
+    "crossSaleProducts": null,
+    "productAttributes": null,
+    "media": null,
+    "skuBundleItems": null,
+    "promotionMessages": null,
+    "archived": null
+  },
+  {
+    "id": 3,
+    "name": "Product4",
+    "description": null,
+    "longDescription": "",
+    "url": "/src/assets/works3.png",
+    "retailPrice": {
+      "amount": 750.0,
+      "currency": "USD"
+    },
+    "salePrice": null,
+    "primaryMedia": {
+      "allowOverrideUrl": true,
+      "id": 1,
+      "title": null,
+      "url": "/enclothe-api/cmsstatic/category/163/uniform-product4.png",
+      "altText": null,
+      "tags": null,
+      "archived": null
+    },
+    "dynamicSkuPrices": null,
+    "active": true,
+    "productOptions": null,
+    "priority": null,
+    "bundleItemsRetailPrice": null,
+    "bundleItemsSalePrice": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "manufacturer": null,
+    "model": null,
+    "promoMessage": null,
+    "defaultSku": {
+      "id": 13951,
+      "activeStartDate": "2023-05-20T10:59:47.000+0000",
+      "activeEndDate": null,
+      "name": "Product1",
+      "active": true,
+      "available": true,
+      "inventoryType": null,
+      "description": null,
+      "retailPrice": {
+        "amount": 750.0,
+        "currency": "USD"
+      },
+      "salePrice": null,
+      "weight": {
+        "weight": null,
+        "unitOfMeasure": "KILOGRAMS"
+      },
+      "dimension": {
+        "width": null,
+        "height": null,
+        "depth": null,
+        "girth": null,
+        "container": null,
+        "size": null,
+        "dimensionUnitOfMeasure": "CENTIMETERS"
+      },
+      "archived": null,
+      "productOptionValues": []
+    },
+    "additionalSkus": null,
+    "defaultCategoryId": null,
+    "upsaleProducts": null,
+    "crossSaleProducts": null,
+    "productAttributes": null,
+    "media": null,
+    "skuBundleItems": null,
+    "promotionMessages": null,
+    "archived": null
+  }
+]

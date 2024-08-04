@@ -1,0 +1,118 @@
+.carBanner {
+  width: 100%;
+  background-color: var(--primary-purple);
+  color: var(--color-white);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  align-items: flex-start;
+  padding: 0 2%;
+  justify-content: center;
+  text-align: start;
+
+  .first {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    justify-content: center;
+    height: 100%;
+    padding: 6% 0;
+
+    h5 {
+      font-weight: 800;
+      line-height: 48px;
+      font-size: 35px;
+    }
+
+    .para1 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 1px;
+      margin-bottom: 1rem;
+    }
+
+    .para {
+      font-size: 16px;
+      font-weight: bolder;
+      line-height: 22px;
+      letter-spacing: 1px;
+    }
+  }
+  .second {
+    height: 100%;
+    .image {
+      width: 100%;
+      height: 77%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+
+      img {
+        width: auto;
+        height: 90%;
+        // object-fit: contain;
+      }
+    }
+    p {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .carBanner {
+    grid-template-columns: 1fr;
+    padding: 9% 5%;
+
+    gap: 20px;
+
+    .first {
+      text-align: start;
+      gap: 6px;
+      padding: 0 0.1%;
+      h5 {
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+      }
+
+      .para1 {
+        font-size: 17px;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+      }
+
+      .para {
+        font-size: 16px;
+        font-weight: bolder;
+        line-height: 22px;
+        letter-spacing: 1px;
+      }
+    }
+
+    .second {
+      // max-width: 300px;
+      .image {
+        max-width: 100%;
+        height: auto;
+        // overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        // background-image: url("../../../public/car.png");
+        background-size: cover;
+
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}

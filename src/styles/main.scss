@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+@import "includes/variable";
+@import "includes/common";
+@import "includes/button";
+@import "includes/carBanner";
+@import "includes/cards";
+@import "includes/customer-says";
+@import "includes/customizeBanner";
+@import "includes/hero";
+@import "includes/homeBanner";
+@import "includes/homeTalk";
+@import "includes/recent-works";
+@import "includes/nav";
+@import "includes/layout";
+@import "includes/responsive";
+@import "includes/footer";
+
+:root {
+  --primary-color: #e51747; /* Replace with your desired primary color */
+  --secondary-color: #ff9600; /* Replace with your desired secondary color */
+  --primary-white: #fff;
+  --primary-dark: #1a1a1a;
+  --secondary-dark: #727272;
+  --footer-dark: #121212;
+  --button-color: #797979;
+  --button-border-color: #2a2a2a;
+  --pure-black: #000;
+  --primary-purple: #5a2383;
+}
+
+* {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.chat {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  background-image: url("../../../public/chat.png");
+  background-size: cover;
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    height: 40px;
+    width: 40px;
+    right: 20px;
+  }
+}

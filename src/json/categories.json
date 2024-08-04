@@ -1,0 +1,482 @@
+[
+  {
+    "id": 10300,
+    "name": "Blouses",
+    "service": "PREMIUM_STITCHING",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/src/assets/Blazer.png",
+        "altText": "Blouses",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10301,
+    "name": "Salwar",
+    "service": "PREMIUM_STITCHING",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/src/assets/college.png",
+        "altText": "Salwar",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10302,
+    "name": "Lehenga",
+    "service": "PREMIUM_STITCHING",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/src/assets/Saree.png",
+        "altText": "Lehanga",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10303,
+    "name": "Gown",
+    "service": "PREMIUM_STITCHING",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/src/assets/corporate.png",
+        "altText": "Gown",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10304,
+    "name": "Kids wear",
+    "service": "PREMIUM_STITCHING",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/src/assets/LapCoat.png",
+        "altText": "Kids wear",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10305,
+    "name": "Maggam work blouse",
+    "service": "ELITE_CELEBRATION_STITCHING",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/src/assets/Saree.png",
+        "altText": "Maggam work blouse",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10306,
+    "name": "Embroidery blouse",
+    "service": "ELITE_CELEBRATION_STITCHING",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/src/assets/Blazer.png",
+        "altText": "Maggam work blouse",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10307,
+    "name": "Bridal lehenga",
+    "service": "ELITE_CELEBRATION_STITCHING",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/src/assets/corporate.png",
+        "altText": "Maggam work blouse",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10308,
+    "name": "Brides maid blouse",
+    "service": "ELITE_CELEBRATION_STITCHING",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/cmsstatic/category/10300/bridesmaidblouse.png",
+        "altText": "Maggam work blouse",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10309,
+    "name": "School Uniform",
+    "service": "UNIFORMS_BULK_ORDERS",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/cmsstatic/category/10300/uniform-school.png",
+        "altText": "School uniform",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10310,
+    "name": "College",
+    "service": "UNIFORMS_BULK_ORDERS",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/cmsstatic/category/10300/uniform-college.png",
+        "altText": "Uniform college",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10311,
+    "name": "Medical scrub",
+    "service": "UNIFORMS_BULK_ORDERS",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/cmsstatic/category/10300/uniform-medicalscrub.png",
+        "altText": "Uniform medical scrub",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10312,
+    "name": "Corporate Uniform",
+    "service": "UNIFORMS_BULK_ORDERS",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/cmsstatic/category/10300/uniform-corporate.png",
+        "altText": "Uniform Corporate",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10313,
+    "name": "Uniform Saree Blouses",
+    "service": "UNIFORMS_BULK_ORDERS",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/cmsstatic/category/10300/uniform-sareeblouses.png",
+        "altText": "Uniform Corporate",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10314,
+    "name": "Labcoat",
+    "service": "UNIFORMS_BULK_ORDERS",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/cmsstatic/category/10300/uniform-labcoat.png",
+        "altText": "Uniform Corporate",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  },
+  {
+    "id": 10315,
+    "name": "Blazer",
+    "service": "UNIFORMS_BULK_ORDERS",
+    "description": null,
+    "longDescription": null,
+    "active": true,
+    "url": null,
+    "urlKey": null,
+    "activeStartDate": null,
+    "activeEndDate": null,
+    "subcategories": null,
+    "products": null,
+    "categoryAttributes": null,
+    "archived": null,
+    "media": [
+      {
+        "allowOverrideUrl": true,
+        "id": 103751,
+        "title": null,
+        "url": "/cmsstatic/category/10300/uniform-blazer.png",
+        "altText": "Uniform Blazer",
+        "tags": "home",
+        "archived": null
+      }
+    ],
+    "categoryCustomDesignTypes": [],
+    "addlProductOptions": [],
+    "allowedCustomDesign": false
+  }
+]

@@ -1,0 +1,55 @@
+.home-talk {
+  background-color: var(--primary-dark);
+  position: relative;
+  padding: 90px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__heading {
+    font-size: 30px;
+    width: 70%;
+    color: var(--primary-white);
+    font-weight: 700;
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .home-talk__heading {
+      width: 85%;
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    /* Small devices (phones, 480px and below) */
+    .home-talk__heading {
+      width: 95%;
+      font-size: 15px;
+    }
+  }
+
+  .chat {
+    height: 80px;
+    width: 80px;
+    right: 50px;
+    bottom: 0px;
+    position: absolute;
+    background-image: url("../../../public/chat.png");
+    background-size: cover;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+      height: 40px;
+      width: 40px;
+      right: 20px;
+    }
+  }
+
+  &__button-container {
+    display: flex;
+    justify-content: center;
+  }
+}
