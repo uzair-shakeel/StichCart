@@ -7,7 +7,10 @@ const HomeTalk = () => {
     <div className="home-talk">
       <div className="home-talk__button-container">
         <a href={`tel:+917200168295`}>
-          <Button className="btn-outline" label="Call or WhatsApp Now" />
+          <Button
+            className="btn-outline whatsapp-btn"
+            label="Call or WhatsApp Now"
+          />
         </a>
       </div>
       <h1 className="home-talk__heading">

@@ -4,10 +4,14 @@
   justify-content: center;
   flex-direction: column;
   background-image: radial-gradient(at center center, #f38647 46%, #e72a47 71%);
-  min-height: 100vh;
+  height: 100%;
   gap: 20px;
   text-align: center;
   padding: 4% 4%;
+
+  @media (max-width: 768px) {
+    padding: 5% 4%;
+  }
 
   h4 {
     margin: 0;
@@ -19,7 +23,11 @@
     @media (max-width: 1024px) {
       font-size: 24px;
     }
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
   }
+
   h1 {
     margin: 0;
     text-align: center;
@@ -30,6 +38,10 @@
     @media (max-width: 1024px) {
       font-size: 34px;
       line-height: 32px;
+    }
+    @media (max-width: 768px) {
+      font-size: 21px;
+      line-height: 21px;
     }
   }
 
@@ -48,6 +60,14 @@
     border-radius: 10px;
     margin-top: -10%;
 
+    @media (max-width: 1024px) {
+      padding: 8px 10px;
+    }
+
+    @media (max-width: 768px) {
+      margin-top: -13%;
+    }
+
     h6 {
       margin: 0;
       text-align: center;
@@ -57,6 +77,14 @@
       letter-spacing: 1px;
       text-transform: uppercase;
       color: #ffffff;
+
+      @media (max-width: 1024px) {
+        font-size: 13px;
+      }
+      @media (max-width: 768px) {
+        font-size: 12px;
+        line-height: 15px;
+      }
     }
   }
 }

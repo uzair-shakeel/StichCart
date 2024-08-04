@@ -1,6 +1,10 @@
 import React from "react";
 import Hero from "./Hero";
 import TalkUs from "../../components/homeTalk/homeTalk";
+import Services from "./Services";
+import Categories from "./Categories";
+import About from "./About";
+import WhyChooseUs from "./WhyChooseUs";
 
 const Home = () => {
   const openWhatsApp = () => {
@@ -29,6 +33,10 @@ const Home = () => {
         }}
         onClick={openWhatsApp}
       ></div>
+      <Services />
+      <Categories />
+      <About />
+      <WhyChooseUs />
       <TalkUs />
     </section>
   );
