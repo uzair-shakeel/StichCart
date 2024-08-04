@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link to={"/"}>
             <img src={logo} className="logo" alt="Logo" />
           </Link>
-          <div className="menu"> 
+          <div className="menu">
             {/* <Link to={"/login"} className="loginDiv">
               <FaRegCircleUser
                 size={28}
@@ -26,7 +26,7 @@ const Navbar = () => {
             </Link> */}
             <ul>
               <li>
-                <Link to="/services" className="navli">
+                <Link to="/bulk-uniform-tailoring" className="navli">
                   Our Services
                 </Link>
               </li>
@@ -61,7 +61,10 @@ const Navbar = () => {
       <aside className={`sidebar ${sidebarOpen ? "open" : "closed"}`}>
         <ul>
           <li>
-            <Link to="/services" onClick={() => setSidebarOpen(false)}>
+            <Link
+              to="/bulk-uniform-tailoring"
+              onClick={() => setSidebarOpen(false)}
+            >
               Our Services
             </Link>
           </li>

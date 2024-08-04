@@ -24,7 +24,10 @@ const Navbar = () => {
             <div>
               <ul className=" flex gap-9 text-[18px]">
                 <li>
-                  <Link to="/services" className="hover:underline">
+                  <Link
+                    to="/bulk-uniform-tailoring"
+                    className="hover:underline"
+                  >
                     Our Services
                   </Link>
                 </li>
@@ -78,7 +81,7 @@ const Navbar = () => {
         <ul className="text-[18px] flex flex-col gap-10 py-14 text-center">
           <li>
             <Link
-              to="/services"
+              to="/bulk-uniform-tailoring"
               onClick={() => setSidebarOpen(false)}
               className="hover:underline"
             >

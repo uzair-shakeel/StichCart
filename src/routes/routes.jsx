@@ -8,6 +8,7 @@ import PrivacyPolicy from "../containers/privacy-policy/privacy-policy";
 import Services from "../containers/Services/services";
 import Works from "../containers/Works/works";
 import UnauthLayout from "../layout/unauth-layout";
+import BulkUniformTailoring from "../containers/Bulk-Uniform-Tailoring/Bulk-Uniform-Tailoring";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: "bulk-uniform-tailoring",
+        element: <BulkUniformTailoring />,
+      },
+      {
         path: "about-us",
         element: <AboutUs />,
       },
@@ -32,10 +37,6 @@ const router = createBrowserRouter([
       {
         path: "how-it-works",
         element: <Works />,
-      },
-      {
-        path: "services",
-        element: <Services />,
       },
       {
         path: "why-choose-us",
