@@ -69,7 +69,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/how-it-works" onClick={() => setSidebarOpen(false)}>
+            <Link to="#" onClick={() => setSidebarOpen(false)}>
               How it Works
             </Link>
           </li>

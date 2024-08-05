@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "./Hero";
 import TalkUs from "../../components/homeTalk/homeTalk";
 import Services from "./Services";
@@ -7,6 +7,10 @@ import About from "./About";
 import WhyChooseUs from "./WhyChooseUs";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const openWhatsApp = () => {
     const phoneNumber = "+917200168295"; // Replace with the actual phone number in international format, e.g., '1234567890'
     const message = "Hello, I would like to chat with you."; // Optional message

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Hero from "../../components/hero/hero";
 import Banner from "../../components/homeBanner/homeBanner";
 import RecentWorks from "../../components/recent-works/recent-works";
@@ -9,6 +9,10 @@ import TalkUs from "../../components/homeTalk/homeTalk";
 import Categories from "../../components/categories/categories";
 
 const BulkUniformTailoring = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const openWhatsApp = () => {
     const phoneNumber = "+917200168295"; // Replace with the actual phone number in international format, e.g., '1234567890'
     const message = "Hello, I would like to chat with you."; // Optional message
