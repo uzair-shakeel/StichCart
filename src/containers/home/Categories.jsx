@@ -1,36 +1,92 @@
-import React from "react";
+import React, { useEffect, useMemo } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+//actions
+import { loadCategories } from "../../actions/category-action";
+//utils
+import * as constants from "../../util/constants";
+import utils from "../../util/utils";
 import "../../styles/includes/categories.scss";
-import CategoryImg1 from "../../../public/category-img1.png";
-import CategoryImg2 from "../../../public/category-img2.png";
-import CategoryImg3 from "../../../public/category-img3.png";
-import CategoryImg4 from "../../../public/category-img4.png";
-import CategoryImg5 from "../../../public/category-img5.png";
-import CategoryImg6 from "../../../public/category-img6.png";
-import CategoryImg7 from "../../../public/category-img7.png";
-import CategoryImg8 from "../../../public/category-img8.png";
-
-const categoriesData = [
-  { imgSrc: CategoryImg1, title: "Stitched Saree" },
-  { imgSrc: CategoryImg2, title: "Gown" },
-  { imgSrc: CategoryImg3, title: "Lehanga" },
-  { imgSrc: CategoryImg4, title: "Salwar Suit" },
-  { imgSrc: CategoryImg5, title: "Kurti" },
-  { imgSrc: CategoryImg6, title: "Anarkali" },
-  { imgSrc: CategoryImg7, title: "Kids Wear" },
-  { imgSrc: CategoryImg8, title: "Uniforms" },
-];
 
 const Categories = () => {
+  const dispatch = useDispatch();
+
+  const categories = useSelector((state) => state.categoryState.categories);
+  const categoriesLoading = useSelector(
+    (state) => state.categoryState.categoriesLoading
+  );
+
+  useEffect(() => {
+    dispatch(loadCategories());
+  }, [dispatch]);
+
+  const filteredCategories = useMemo(
+    () =>
+      categories
+        .filter(
+          (category) =>
+            (category.service === constants.SERVICE_PREMIUM_STITCHING ||
+              category.service ===
+                constants.SERVICE_ELITE_CELEBRATION_STITCHING) &&
+            category.service !== constants.SERVICE_BULK_UNIFORM
+        )
+        .slice(0, 8),
+    [categories]
+  );
+
+  // Get a random image URL from category media
+  const getRandomImageUrl = (media) => {
+    if (media && media.length > 0) {
+      const randomIndex = Math.floor(Math.random() * media.length);
+      const randomImage = media[randomIndex];
+      // Ensure that the image URL is correctly formed
+      const imageUrl = utils.prepareImgUrl(
+        constants.IMG_FOLDER_CATEGORIES,
+        randomImage.url
+      );
+      console.log("Random Image URL:", imageUrl); // Debug log
+      return imageUrl;
+    }
+    return "/path/to/default/image.png"; // Fallback image
+  };
+
+  const renderCategory = (category) => {
+    const imgUrl = getRandomImageUrl(category.media);
+
+    return (
+      <div className="category" key={category.id}>
+        <div className="category-img">
+          <img
+            src={imgUrl}
+            alt={category.name}
+            onError={() => {
+              console.error(`Failed to load image for ${category.name}`);
+              // Optionally set a fallback image here
+            }}
+          />
+        </div>
+        <h5>{category.name}</h5>
+      </div>
+    );
+  };
+
+  const renderSkeleton = () => (
+    <SkeletonTheme baseColor="#202020" highlightColor="#444">
+      <p>
+        <Skeleton className="category" />
+      </p>
+    </SkeletonTheme>
+  );
+
   return (
     <div className="categories">
-      {categoriesData.map((category, index) => (
-        <div className="category" key={index}>
-          <div className="category-img">
-            <img src={category.imgSrc} alt={category.title} />
-          </div>
-          <h5>{category.title}</h5>
-        </div>
-      ))}
+      {categoriesLoading
+        ? Array.from({ length: 8 }).map((_, index) => (
+            <div className="category" key={index}>
+              {renderSkeleton()}
+            </div>
+          ))
+        : filteredCategories.map((category) => renderCategory(category))}
     </div>
   );
 };
